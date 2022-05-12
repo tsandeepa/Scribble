@@ -10,7 +10,7 @@ const Header = () => {
             <div className="flex-center">
                 <div className="header--tile">
                     <div className="mobile--menu">
-                        <button><img src={mobMenu} /></button>
+                        <button><img src={mobMenu} alt=''/></button>
                         
                     </div>
                     <img src={logo} alt="" />

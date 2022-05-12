@@ -14,10 +14,10 @@ const Footer = () => {
                     <img src={logoGray} alt="" />
                     <p>The biggest designers <br/>community</p>
                     <div className="foot--social">
-                        <img src={s1} />
-                        <img src={s2} />
-                        <img src={s3} />
-                        <img src={s4} />
+                        <img src={s1} alt=''/>
+                        <img src={s2} alt=''/>
+                        <img src={s3} alt=''/>
+                        <img src={s4} alt=''/>
                     </div>
                 </div>
                 <div className="foot--nav">

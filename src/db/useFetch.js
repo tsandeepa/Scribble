@@ -4,16 +4,16 @@ import { useEffect, useState } from "react";
 const useFetch = () => {
 
     const [data, setData] = useState(null);
-    const [isLoading, setIsLoading] = useState(false);
+    // const [isLoading, setIsLoading] = useState(false);
 
     useEffect(() => {
-        setIsLoading(true)
+        // setIsLoading(true)
         fetch('https://cribble-4f33a-default-rtdb.firebaseio.com/Items.json')
         .then(response => response.json())
         .then(data => {
             setData(data);
             console.log(data);
-            setIsLoading(false)
+            // setIsLoading(false)
         })
         .catch(err => console.error(err));
     }, []);
