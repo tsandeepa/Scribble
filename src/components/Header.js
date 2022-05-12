@@ -2,7 +2,8 @@ import { Link } from "react-router-dom";
 import { HeaderTop } from "../styles/Header.Styled";
 import logo from "../assets/scribble.png"
 import logUser from "../assets/Avatar-12.svg"
-import mobMenu from "../assets/mobile-menu.png";
+// import mobMenu from "../assets/mobile-menu.png";
+import { RiMenu5Line } from "react-icons/ri";
 
 const Header = () => {
     return ( 
@@ -10,7 +11,7 @@ const Header = () => {
             <div className="flex-center">
                 <div className="header--tile">
                     <div className="mobile--menu">
-                        <button><img src={mobMenu} alt=''/></button>
+                        <button><RiMenu5Line/></button>
                         
                     </div>
                     <img src={logo} alt="" />

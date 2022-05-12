@@ -21,6 +21,18 @@ export const HeaderTop = styled.div`
         }
         .mobile--menu{
             display: none;
+            button{
+                    width: 35px;
+                    height: 35px;
+                    padding: 0;
+                    border-radius: 50px;
+                    border: none;
+                    background: transparent;
+                    font-size: 30px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+            }
         }
     }
     .header--nav{
@@ -64,14 +76,7 @@ export const HeaderTop = styled.div`
             .mobile--menu{
                 display: block !important;
                 margin-right: 10px;
-                button{
-                    width: 35px;
-                    height: 35px;
-                    padding: 0;
-                    border-radius: 50px;
-                    border: none;
-                    background: transparent;
-                }
+                
             }
             h2{
                 display: none;
