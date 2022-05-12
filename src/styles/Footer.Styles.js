@@ -40,4 +40,29 @@ export const FooterBottom = styled.div`
         font-size: 13px;
         color: #686868;
     }
+
+    @media only screen and (max-width: 782px) { 
+        .flex-center.flex-between{
+            flex-direction: column;
+           
+
+        }
+        .foot--desc{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            p{
+                text-align: center;
+            }
+
+        }
+        .foot--nav{
+            flex-direction: column;
+            margin-left: 0;
+            align-items: center;
+            gap: 20px;
+            margin-top: 50px;
+            margin-bottom: 20px;
+        }
+    }
 `

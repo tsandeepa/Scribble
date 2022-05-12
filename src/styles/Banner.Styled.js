@@ -19,4 +19,17 @@ export const Banner = styled.div`
             color: #646464;
         }
     }
+
+    @media only screen and (max-width: 930px) { 
+        flex-direction: column;
+        flex-direction: column-reverse;
+        .banner_text{
+            text-align: center;
+        }
+    }
+    @media only screen and (max-width: 600px) { 
+        img{
+            max-width: 340px;
+        }
+    }
 `

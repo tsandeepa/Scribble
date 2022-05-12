@@ -3,6 +3,9 @@ import styled from "styled-components";
 export const ItemBox = styled.div`
     .poster__img{
         width: 100%;
+        min-height: 303px;
+        background-color: #f3f3f3;
+        cursor: pointer;
     }    
     .poster_info{
         display: flex;
@@ -12,12 +15,13 @@ export const ItemBox = styled.div`
         .pi_user{
             display: flex;
             align-items: center;
-            gap: 12px;
+            gap: 10px;
+            cursor: pointer;
             img{
                 height:40px
             }
             p{
-                font-weight: 500;
+                font-weight: 600;
             }
         }
         .pi_impressions{
@@ -25,14 +29,17 @@ export const ItemBox = styled.div`
             align-items: center;
             gap: 5px;
             svg{
-                font-size: 20px;
+                font-size: 22px;
                 color: #E1D9E4;
+                cursor: pointer;
+                &:hover{
+                    color: #8A2AD4;
+                }
             }
             span{
-                padding-bottom: 4px;
                 font-weight: 500;
             }
         }
     }
-
+    
 `

@@ -19,6 +19,9 @@ export const HeaderTop = styled.div`
             color: #8A2AD4;
             padding-bottom: 4px;
         }
+        .mobile--menu{
+            display: none;
+        }
     }
     .header--nav{
         display: flex;
@@ -48,5 +51,32 @@ export const HeaderTop = styled.div`
         img{
             height: 43px;
         }
+    }
+
+    @media only screen and (max-width: 930px) { 
+        .header--nav{
+            display: none;
+        }
+        body{
+            padding-bottom: 100px;
+        }
+        .header--tile{
+            .mobile--menu{
+                display: block !important;
+                margin-right: 10px;
+                button{
+                    width: 35px;
+                    height: 35px;
+                    padding: 0;
+                    border-radius: 50px;
+                    border: none;
+                    background: transparent;
+                }
+            }
+            h2{
+                display: none;
+            }
+        }
+        
     }
 `
